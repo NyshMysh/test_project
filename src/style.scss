@@ -1,0 +1,96 @@
+@import "fonts";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+/*общее*/
+
+.wrapper {
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+
+/*timer*/
+.timer__button {
+  width: 196px;
+  height: 54px;
+  border-radius: 6px;
+  background-color: #4073FF;
+  border: 0;
+  font-size: 15px;
+  line-height: 23.4px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.timer__display {
+  margin-left: 25px;
+  color: #4073FF;
+  font-size: 22px;
+}
+
+.timer {
+  display: flex;
+  align-items: center;
+}
+
+
+@media (max-width: 1320px) {
+  .container {
+
+    max-width: 85%;
+  }
+}
+
+@media (max-width: 1140px) {
+  .engineering-works__content-img img {
+    width: 450px;
+    height: auto;
+    display: flex;
+    align-items: center;
+  }
+
+  .engineering-works__content-img {
+    display: flex;
+    align-items: center;
+  }
+
+  .engineering-works__container {
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 1040px) {
+  .engineering-works__content-img img {
+    width: 350px;
+    height: auto;
+  }
+  .engineering-works__container {
+    display: block;
+  }
+
+  .engineering-works__content-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 640px) {
+  .footer__wrapper {
+    position: static;
+    margin-top: 40px;
+  }
+}

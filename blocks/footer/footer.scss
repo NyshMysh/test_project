@@ -1,0 +1,30 @@
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+}
+
+.footer__wrapper {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid #ECECF0;
+  margin-top: 130px;
+}
+
+.footer__icons {
+  display: flex;
+}
+
+.footer__icon {
+  margin-left: 14px;
+}
+
+@media (max-width: 1040px) {
+  .footer__wrapper {
+    position: static;
+    margin-top: 40px;
+  }
+}

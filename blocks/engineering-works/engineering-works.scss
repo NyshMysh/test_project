@@ -1,0 +1,17 @@
+.engineering-works__container {
+  display: flex;
+  justify-content: center;
+}
+
+.engineering-works__content {
+  max-width: 490px;
+  width: 486px;
+  margin-right: 84px;
+}
+
+@media (max-width: 1040px) {
+  .engineering-works__content {
+    width: auto;
+    max-width: unset;
+  }
+}
