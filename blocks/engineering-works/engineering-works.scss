@@ -3,15 +3,45 @@
   justify-content: center;
 }
 
-.engineering-works__content {
-  max-width: 490px;
-  width: 486px;
-  margin-right: 84px;
+
+@media (max-width: 1140px) {
+  .engineering-works__container {
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    & .engineering-works__content-img {
+      display: flex;
+      align-items: center;
+
+      img {
+        width: 450px;
+        height: auto;
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
 }
 
 @media (max-width: 1040px) {
-  .engineering-works__content {
-    width: auto;
-    max-width: unset;
+  .engineering-works__container {
+    display: block;
+
+    & .engineering-works__content {
+      width: auto;
+      max-width: unset;
+    }
+
+    & .engineering-works__content-img {
+      display: flex;
+      justify-content: center;
+      margin-top: 40px;
+
+      img {
+        width: 350px;
+        height: auto;
+      }
+    }
   }
 }
