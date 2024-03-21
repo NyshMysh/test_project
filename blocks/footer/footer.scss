@@ -1,7 +1,4 @@
 .footer__wrapper {
-  position: absolute;
-  left: 0;
-  bottom: 0;
   width: 100%;
   border-top: 1px solid #ECECF0;
   margin-top: 130px;
@@ -16,7 +13,6 @@
 
 @media (max-width: 1040px) {
   .footer__wrapper {
-    position: static;
     margin-top: 40px;
   }
 }

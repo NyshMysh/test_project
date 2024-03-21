@@ -1,9 +1,5 @@
 @import "fonts";
-
-* {
-  margin: 0;
-  padding: 0;
-}
+@import "reset";
 
 body {
   font-family: 'Lato', sans-serif;
@@ -12,8 +8,4 @@ body {
 .container {
   max-width: 1170px;
   margin: 0 auto;
-}
-
-
-@media (max-width: 1320px) {
 }
